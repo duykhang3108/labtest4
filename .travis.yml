@@ -6,4 +6,6 @@ jdk:
   - openjdk10
   - open jdk11
 script:
-  mvn clean verify 
+  mvn clean install
+  mvn verify
+  mvn test
