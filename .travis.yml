@@ -1,0 +1,9 @@
+language: java
+os:
+  - linux
+dist: trusty
+jdk:
+  - openjdk10
+  - open jdk11
+script:
+  mvn clean verify 
